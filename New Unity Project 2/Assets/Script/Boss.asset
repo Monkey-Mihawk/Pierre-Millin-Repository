@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Boss
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":215.4104,"y":-125.0296},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-158.0,"y":-212.0},"guid":"663796af-6d61-47fc-af77-5b56332f8da9","$version":"A","$type":"Bolt.Start","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"ac883353-9b18-4db6-92c3-2e65963976b1","$version":"A","$type":"Bolt.Update"},{"kind":"Object","defaultValues":{"name":{"$content":"Points
+      de vie","$type":"System.String"},"object":null},"position":{"x":-12.0,"y":-211.0},"guid":"b047d140-5a5e-4be0-a20f-7f4c56c7e598","$version":"A","$type":"Bolt.SetVariable","$id":"13"},{"type":"System.Int32","value":{"$content":30,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-156.0,"y":-95.0},"guid":"2b1fa261-a3b3-45a1-9504-1696bee0d27d","$version":"A","$type":"Bolt.Literal","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"3e36358f-5e23-407c-a456-9542047fdb9d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"643385ce-3fd9-47d5-ba72-927c3b55b1ae","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
